@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table , th, td, tr{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        html{
+            scroll-behavior: smooth;
+
+        }
+        aside{
+            width:30%;
+            float: right;
+            padding: 20px;
+            border-left: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!--Headings practice-->
+    <h1>JAI MATA DI</h1>
+    <h2>JAI MATA DI</h2>
+    <h3>JAI MATA DI</h3>
+    <h4>JAI MATA DI</h4>
+    <h5>JAI MATA DI</h5>
+    <h6>JAI MATA DI</h6>
+
+    <!--PARAGRAPHS-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quod soluta at ratione esse optio earum atque consequatur voluptas voluptatibus. Dolorem animi laboriosam possimus, labore dolor maxime temporibus aspernatur ducimus!</p>
+    <br>
+    <p>my name is Pratik Kumar</p>
+    <br>
+    <p><b>My name is Rohit Sharma</b></p>
+    <br>
+    <p><i>My name is Abhishek</i></p>
+    <hr>
+    <p> my name is pratik <del>Kumar</del>Sharma.</p>
+    <p>My name is pratik <mark>Sharma</mark></p>
+    <p>x<sup>2</sup>+y<sup>2</sup>=z<sup>2</sup></p>
+     <p>x<sub>2</sub>+y<sub>2</sub>=z<sub>2</sub></p>
+     <p>my name is pratik <u>Sharma.</u></p>
+    <pre>
+        <a href="https://www.google.com/" target="_blank">click here</a>
+    <img src="pic.jpg"
+    height="400"
+    width="400"
+    alt="flower image"
+    >
+    </pre>
+     
+    <pre>
+        hello         guys
+                my
+                name
+                is
+        Pratik          Kumar       
+    </pre>
+    <!--LISTS
+        There are three types of lists
+        1> ordered List2
+        2> unordered List
+        3> Description List
+    -->
+        <!-- 1> Ordered List-->
+         <ol>
+            <li>chai</li>
+            <li>sutta</li>
+            <li>bar</li>
+         </ol>
+         <!-- 2> Unordered List -->
+         <ul>
+            <li>chai</li>
+            <li>sutta</li>
+            <li>bar</li>
+         </ul>
+         <!-- 3> Description List--->
+          <dl>
+            <dt>Chrome</dt>
+            <dd>chrome is a search engine.</dd>
+            <br> 
+            <dt>firefox</dt>
+            <dd>firefox is a search engine.</dd>
+        </dl>
+
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">month</th>
+                    <th rowspan="2">saving</th>
+                    <th colspan="2">super saving</th>
+                </tr>
+                <tr>
+                    <th>saving</th>
+                    <th>super saving</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>jan</td>
+                    <td>100</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>fab</td>
+                    <td>200</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>mar</td>
+                    <td>300</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>apr</td>
+                    <td>400</td>
+                    <td>200</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr><th>total</th>
+                <th>1000</th>
+                <th>500</th></tr>
+            </tfoot>
+        </table>
+        <br>
+        <form action="https://www.google.com/">
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan="2"><h1>Welcome Back!</h1></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label for="username">UserName:</label></td>
+                        <td>    <input type="text" name="username"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="password">Password:</label></td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>  <input type="submit" value ="submit"></td>
+                    </tr>
+                  
+                </tfoot>
+            </table>
+        </form>
+        <br>
+        <table>
+            <colgroup>
+                <col span="1" style="background-color: aqua;">
+                <col span="2" style="background-color:red ;">
+                <!--For merge the column we use Visibility attribute-->
+                
+                <!-- <col span="1" style="visibility: collapse;"> -->
+            </colgroup>
+            <thead>
+                <tr>
+                    <th rowspan="3">Day</th>
+                    <th colspan="3">Seminar</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Schedule</th>
+                    <th rowspan="3">Topic</th>
+                </tr>
+                <tr>
+                    <th>Begin</th>
+                    <th>End</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Monday</td>
+                    <td rowspan="2">8:00 AM</td>
+                    <td rowspan="2">5:00PM</td>
+                    <td>ABC+D</td>
+                </tr>
+                <tr>
+                    <td>defh</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">Tuesday</td>
+                    <td>8:00 AM</td>
+                    <td>11:00 AM</td>
+                    <td rowspan="2">Xpath</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM</td>
+                    <td>2:00 PM</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM</td>
+                    <td>5:00 PM</td>
+                    <td >XSL transformation</td>
+                </tr>
+            </tbody>
+        </table>
+<br>
+<hr>
+        <form action="https://www.google.com/" target="_blank">
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username" placeholder="Enter your name" size="30">
+            <br>
+            <br>
+            <label for="Password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter the password" size="30">
+            <br>
+            <br>
+            <label for="DOB">Enter DOB:</label>
+            <input type="date" id="date" name="DOB" value="DOB">
+
+            <br>
+            <br>
+            <label for="color" >Your Fav. color: </label>
+            <input type="color" name="color" id="color">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+        <label for="gender">Gender: </label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <br>
+        <br>
+        <label for="courses">Courses: </label>
+        <select name="courses" id="courses">
+            <option value="select">Select</option>
+            <option value="B.tech">B.tech</option>
+            <option value="M.tech">M.tech</option>
+            <option value="Diploma">Diploma</option>
+        </select>
+        <br>
+        <br>
+        <label for="listitems">Select List Items:</label>
+        <input list="listi">
+        <datalist id="listi">
+            <option value="CS"></option>
+            <option value="ME"></option>
+            <option value="CE"></option>
+        </datalist>
+        <br>
+        <br>
+        <label for="resume">Resume: </label>
+        <input type="file" name="resume" id="resume" >
+        <br><br>
+        <!--For multiple files-->
+         <label for="resume">Resume: </label>
+        <input type="file" name="resume" id="resume" multiple>
+        <br>
+        <br>
+        <label for="dateTime">DateTime:</label>
+        <input type="datetime-local" name="dateTime" id="datetime">
+        <br><br>
+        <label for="phone">Phone:</label>
+        <input type="number" name="phone">
+        <br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        <br><br>
+        <a href="https://www.instagram.com/">
+            <img src="ghibli.png" alt="image" height="40" width="40">
+        </a>
+        <br><br>
+        <a href="tel:+918859295480">call me</a>
+        <a href="mailto:pratiksharma5711@gmail.com">mail me</a>
+        <br><br>
+        <video width="200" height="200" controls>
+            <source src="shadi.mp4" type="video/mp4">
+        </video>
+        <br><br>
+        <audio controls>
+            <source src="songnew.mp3" type="audio/mpeg">
+        </audio>
+        <aside>
+            <h1>Hello</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod aliquid neque facilis voluptas voluptate in, omnis, veritatis voluptatum excepturi quisquam sed quia numquam libero quae cupiditate dolorem? Dolore, beatae? Vel.</p>
+        </aside>
+    </form>
+    </body>
+</html>

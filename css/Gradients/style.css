@@ -1,0 +1,96 @@
+.mydiv1{
+    background-color: red;
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    color: black;
+    font-size: 35px;
+    margin: 10px;
+    background-image: linear-gradient(orange,white,green);
+    background-image: linear-gradient(to left,orange,white,green);
+    background-image: linear-gradient(to right,orange,white,green);
+    background-image: linear-gradient(to top,orange,white,green);
+    background-image: linear-gradient(to bottom left,orange,white,green);
+    background-image: linear-gradient(to bottom right,orange,white,green);
+    background-image: linear-gradient(to top left,orange,white,green);
+    background-image: linear-gradient(to top right,orange,white,green);
+    background-image: linear-gradient(orange,white,green);
+}
+.mydiv2{
+    background-color: red;
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    color: black;
+    font-size: 35px;
+    margin: 10px;
+    border-radius: 50%;
+    background-image: radial-gradient(orange, white,green);
+    background-image: radial-gradient(circle,orange 40%, white 10%, green 45%);
+    background-image: radial-gradient(orange, white,green);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.mydiv3{
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    color: black;
+    font-size: 35px;
+    margin: 10px;
+    background-image: conic-gradient(orange,white,green);
+    background-image: conic-gradient(orange 45deg, white 180deg, green 210deg);
+    background-image: conic-gradient(from 90deg,orange,white,green);
+    border-radius: 50%;
+}
+.mydiv4{
+        box-sizing: border-box;
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        align-content: center;
+        font-weight: bold;
+        color: black;
+        font-size: 35px;
+        margin: 10px;
+        background-image: repeating-conic-gradient(orange 10%, white 20%);
+        border-radius: 50%;      
+}
+.mydiv5{
+          box-sizing: border-box;
+          height: 200px;
+          width: 200px;
+          text-align: center;
+          align-content: center;
+          font-weight: bold;
+          color: black;
+          font-size: 35px;
+          margin: 10px;
+          border-radius: 50%;
+          background-image: repeating-conic-gradient(orange 0deg 10deg, white 10deg 20deg, green 20deg 30deg );
+}
+.mydiv6{
+          box-sizing: border-box;
+          height: 200px;
+          width: 200px;
+          text-align: center;
+          align-content: center;
+          font-weight: bold;
+          color: black;
+          font-size: 35px;
+          margin: 10px;
+          transform: skew(-35deg);
+          margin-left:100px;
+          background-image: repeating-conic-gradient(red 0deg 90deg, yellow 90deg 180deg, green 180deg 270deg,blue 270deg 360deg );
+}

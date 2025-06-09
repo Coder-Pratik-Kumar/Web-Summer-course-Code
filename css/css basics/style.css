@@ -1,0 +1,33 @@
+.box{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+    border: 3px solid black;
+    margin:10px;
+    padding: 20px;
+}
+h1{
+    text-emphasis: filled;
+}
+h2{
+    text-emphasis: open;
+}
+h1{
+    text-emphasis: double-circle red;
+}
+h2{
+    text-emphasis: triangle blue;
+}
+.mydiv{
+    height:200px;
+    width:200px;
+    background-color: yellow;
+    box-sizing: border-box;
+    padding: 100px;
+}
+#mypara{
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

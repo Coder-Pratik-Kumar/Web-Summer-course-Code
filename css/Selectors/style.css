@@ -1,0 +1,53 @@
+/* 1 a> element selector */
+div{
+    background-color: red;
+    margin:10px;
+    height:200px;
+    width:200px;
+}
+/* 1 b> class selector */
+.box{
+    background-color: blue;
+    margin:20px;
+    padding:10px;
+}
+/* 1 c> Id selector */
+#box1{
+    background-color: magenta;
+    color:yellow;
+}
+/* 2> psuedo-class selector */
+#box1:hover{
+    background-color: yellow;
+    color:magenta;
+}
+/* 3> Multiple selector */
+#box1,#box2,#box3{
+    background-color: black;
+    color: wheat;
+}
+/* 4> nested selector */
+#box1 > p{
+    color: red;
+    background-color: blue;
+}
+/* 5> universal selector */
+*{
+    margin:50px;
+}
+/* 6> Attribute selector */
+a[target="_blank"]{
+    color: red;
+}
+[class$="header"] {
+  background: yellow;
+}
+[class ^="top"]{
+    background-color: red;
+}
+[class *="en"]{
+    background-color: red;
+}
+[title ~="pic"]{
+    background-color: blue;
+}

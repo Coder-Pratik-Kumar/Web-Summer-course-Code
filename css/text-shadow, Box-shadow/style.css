@@ -1,0 +1,18 @@
+h1{
+    text-shadow:4px 3px 3px greenyellow;
+}
+h2{
+    text-shadow: 4px 4px 3px green , 5px 5px 3px red;
+}
+.mydiv{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+    box-shadow: 3px 3px 3px;
+    color: green;
+    box-shadow: -45deg 3px 3px 3px red;
+    box-shadow: 3px 3px 3px red, 4px 4px 4px brown;
+    box-shadow: 3px 3px 3px red inset;
+    padding: 50px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --darkGreen: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --gray: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    --head: 2rem;
+    --text: 1rem;
+}
+body{
+    background-color: var(--cream);
+}
+img{
+    height:100%;
+    max-width:100%;
+    border-radius: 1.03rem 0 0 1.03rem;
+    -webkit-border-radius: 1.03rem 0 0 1.03rem;
+    -moz-border-radius: 1.03rem 0 0 1.03rem;
+    -ms-border-radius: 1.03rem 0 0 1.03rem;
+    -o-border-radius: 1.03rem 0 0 1.03rem;
+}
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardbox{
+   display: flex;
+   margin: 1em 2em;
+   max-width: 600px;
+   background-color: var(--white);
+   border-radius: 1.03rem;
+   box-shadow: 0px 0px 3px black;
+}
+.image{
+    width:100%;
+}
+.cardtext{
+    text-align: left;
+    margin: 1.5em 2em;
+}
+.coffeemugH{
+font-family: "Montserrat", sans-serif;
+letter-spacing: 0.3rem;
+font-size: var(--text);
+color: var(--grey);
+text-transform: uppercase;
+font-weight: 500;
+}
+.protitle{
+    font-size: var(--head);
+    line-height: 1;
+    font-family: "Fraunces", serif;
+    margin: 0.6em 0 0.7em 0;
+    font-weight: 700;
+}
+.descrip{
+    width:96%;
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--text);
+    color: var(--gray);
+     font-weight: 500;
+     margin-bottom: 1.5em;
+}
+.greentext{
+    color: var(--darkGreen);
+    margin-right: 0.3em;
+    font-size: var(--head);
+}
+.desk{
+    text-decoration: line-through;
+    align-self: center;
+}
+.btn{
+    display: block;
+    background-color: var(--darkGreen);
+    color: var(--white);
+    padding: 1em 0;
+    border: 0;
+    border-radius: 0.7em;
+    outline: none;
+    cursor: pointer;
+    margin: 2em 0 1em 0;
+    width:96%;
+}
+.btn:hover {
+  background-color: hsl(156, 24%, 24%);
+}
+.button_image{
+    margin-right: 1em;
+    max-width: 100%;
+}
+.btn_text {
+  color: var(--white);
+}
+
+@media (min-width: 650px) {
+  .card-box {
+    display: flex;
+    max-width: 700px;
+  }
+
+  .desktop_img {
+    display: block;
+    width: 900px;
+    height: 100%;
+    border-radius: 1.5em 0 0 1.5em;
+  }
+
+  .mobile_img {
+    display: none;
+  }
+
+  .product_title {
+    width: 80%;
+  }
+}

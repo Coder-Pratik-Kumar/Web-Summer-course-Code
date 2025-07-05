@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RazorPay</title>
     <link rel="stylesheet" href="./main.css">
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
+<body>
         <nav class="bg-deepBlue">
            <div class="flex w-[1080px] mx-auto justify-evenly items-center">
             <a href="/" class="py-7 pr-7">
@@ -94,8 +96,93 @@
                 </div>
            </div>
         </nav>
-<body>
-  
+        <section class="bg-deepBlue w-full relative">
+            <div class="mx-auto max-w-[1080px] flex items-center justify-between w-10/12">
+                <div class="space-y-5 w-[50%]">
+                    <h1 class="text-white font-bold text-[40px] leading-[1.2] font-mullish" >Power your finance, grow your business </h1>
+                    <div class="w-6 h-1 bg-green-400 mt-2"></div>
+                    <p class="text-white opacity-70 text-justify font-mullish text-[18px] leading-7">Accept payments from customers. Automate payouts to venters and employees. Never run out of working capital</p>
+                    <button class="bg-lightBlue text-white 
+                    py-[14px] px-[18px] rounded-md leading-5 
+                    hover:text-lightBlue500 hover:bg-white
+                    transition-all duration-500 font-bold font-mullish" >Sign Up Now</button>
+                </div>
+                    
+                <div class="ml-8">
+                    <img src="images/hero-illustration.jpg" alt=""
+                    class="w-full max-w-[680px]">
+                </div>
+            </div>
+            <div class="w-[101%] absolute left-0 right-0">
+                <img src="images/hero-shape.svg" alt="" class="w-full object-fill ">
+            </div>
+        </section>
+        <section class="w-full relative mt-[190px] overflow-hidden">
+            <img src="images/feature-section1-dottedrows.png" alt="dot" loading="lazy" width="233"
+            height="167" class="absolute -top-[125px] left-0 animate-pulse"
+           >
+            <img src="images/feature-section1-dottedrows.png" alt="dot"  loading="lazy" width="233"
+            height="167" class="absolute right-0 rotate-180 animate-pulse transition-all"
+            >
+            <div class="mx-auto mx-w-[1080px] relative w-[1000px] pt-4">
+                <h2 class="text-center font-mullish font-extrabold leading-[1.4] text-2xl">Accept Payments with Razorpay Payment Suit</h2>
+                <div class="w-6 h-1 bg-greenLight mx-auto mt-2"></div>
+                <div class="w-full relative border mt-5 min-h-[520px] flex rounded p-10 py-8 mt-10">
+                    <!--left sec-->
+                    <div class="flex flex-col justify-between w-[50%]">
+                        <h3 class="text-[28px] font-mullish font-bold">
+                            Supercharge your business with the all‑powerful
+                            <span class="text-lightBlue">Payment Gateway</span>
+                        </h3>
+                        <ul class="space-y-2">
+                            <li class="flex space-x-2 font-mullish items-center">
+                                <i data-feather="check" class="text-greenLight"></i>
+                                <span>100+ Payment Methods</span>
+                            </li>
+                            <li class="flex space-x-2 font-mullish items-center">
+                                <i data-feather="check" class="text-greenLight"></i>
+                               <span>Industry Leading Success Rate</span>
+                            </li>
+                            <li class="flex space-x-2 font-mullish items-center">
+                                <i data-feather="check" class="text-greenLight"></i>
+                               <span>Superior Checkout Experience</span>
+                            </li>
+                            <li class="flex space-x-2 font-mullish items-center">
+                                <i data-feather="check" class="text-greenLight"></i>
+                               <span>Easy to Integrate</span>
+                            </li>
+                            <li class="flex space-x-2 font-mullish items-center">
+                                <i data-feather="check" class="text-greenLight"></i>
+                               <span>Instant Settlements from day 1</span>
+                            </li>
+                            <li class="flex space-x-2 font-mullish items-center">
+                                <i data-feather="check" class="text-greenLight"></i>
+                                 <span>In-depth Reporting and Insights</span>
+                            </li>
+                        </ul>
+                        <div class="flex gap-7 items-center">
+                            <button class="py-[10px] px-[18px] text-[12px] bg-lightBlue300 rounded font-mullish font-bold text-white
+                            hover:bg-lightBlue500 
+                    transition-all duration-500">
+                                Sign Up Now
+                            </button>
+                            <div class="flex items-center justify-center font-mullish text-[12px] text-lightBlue500 font-bold group">
+                                <a href="#" class="group-hover:text-grayBlue transition-all duration-200">Know More</a>
+                                <i data-feather="chevron-right" class="group-hover:text-grayBlue transition-all duration-200 w-5 h-5"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Right sec-->
+                    <div>
+                        <img src="images/payment-suite.png" alt="payment" class="max-w-[600px] absolute  right-0 -top-[0.3px]">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            feather.replace()
+        </script>
 </body>
 
 </html>
